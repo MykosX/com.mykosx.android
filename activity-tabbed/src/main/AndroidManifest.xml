@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <activity
+            android:name=".TabbedActivity"
+            android:exported="false"
+            android:label="@string/title_activity_tabbed"
+            android:theme="@style/Theme.AndroidExperiments.NoActionBar" />
+    </application>
+
+</manifest>

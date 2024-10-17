@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application>
+        <activity
+            android:name=".ResponseActivity"
+            android:exported="false"
+            android:label="@string/title_activity_response"
+            android:resizeableActivity="true"
+            android:theme="@style/Theme.AndroidExperiments.NoActionBar"
+            tools:targetApi="24" />
+    </application>
+
+</manifest>

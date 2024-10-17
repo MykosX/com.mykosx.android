@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/buttonTabbedActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TabbedActivity"
+        android:onClick="onTabbedActivity"/>
+
+    <Button
+        android:id="@+id/buttonSettingsActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SettingsActivity"
+        android:layout_below="@+id/buttonTabbedActivity"
+        android:onClick="onSettingsActivity"/>
+
+    <Button
+        android:id="@+id/buttonScrollingActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ScrollingActivity"
+        android:layout_toEndOf="@+id/buttonTabbedActivity"
+        android:onClick="onScrollingActivity"/>
+
+    <Button
+        android:id="@+id/buttonResponseActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ResponseActivity"
+        android:layout_below="@+id/buttonScrollingActivity"
+        android:layout_toEndOf="@+id/buttonSettingsActivity"
+        android:onClick="onResponseActivity"/>
+
+    <Button
+        android:id="@+id/buttonItemDetailHostActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ItemDetailHostActivity"
+        android:layout_below="@+id/buttonSettingsActivity"
+        android:onClick="onItemDetailHostActivity"/>
+
+    <Button
+        android:id="@+id/buttonNavDrawerActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NavDrawerActivity"
+        android:layout_below="@+id/buttonResponseActivity"
+        android:layout_toEndOf="@+id/buttonItemDetailHostActivity"
+        android:onClick="onNavDrawerActivity"/>
+
+    <Button
+        android:id="@+id/buttonLoginActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LoginActivity"
+        android:layout_below="@+id/buttonNavDrawerActivity"
+        android:onClick="onLoginActivity"/>
+
+    <Button
+        android:id="@+id/buttonFullscreenActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FullscreenActivity"
+        android:layout_below="@+id/buttonNavDrawerActivity"
+        android:layout_toEndOf="@+id/buttonLoginActivity"
+        android:onClick="onFullscreenActivity"/>
+
+    <Button
+        android:id="@+id/buttonFragmentActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FragmentActivity"
+        android:layout_below="@+id/buttonLoginActivity"
+        android:onClick="onFragmentActivity"/>
+
+    <Button
+        android:id="@+id/buttonEmptyActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EmptyActivity"
+        android:layout_below="@+id/buttonFullscreenActivity"
+        android:layout_toEndOf="@+id/buttonFragmentActivity"
+        android:onClick="onEmptyActivity"/>
+
+    <Button
+        android:id="@+id/buttonBottomNavActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BottomNavActivity"
+        android:layout_below="@+id/buttonFragmentActivity"
+        android:onClick="onBottomNavActivity"/>
+
+    <Button
+        android:id="@+id/buttonBasicViewsActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BasicViewsActivity"
+        android:layout_below="@+id/buttonEmptyActivity"
+        android:layout_toEndOf="@+id/buttonBottomNavActivity"
+        android:onClick="onBasicViewsActivity"/>
+
+    <Button
+        android:id="@+id/buttonTVActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TVActivity"
+        android:layout_below="@+id/buttonBottomNavActivity"
+        android:onClick="onTVActivity"/>
+</RelativeLayout>

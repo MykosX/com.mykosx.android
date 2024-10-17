@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -9,6 +10,19 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/activity-basic" />
+            <option value="$PROJECT_DIR$/activity-detail" />
+            <option value="$PROJECT_DIR$/activity-empty" />
+            <option value="$PROJECT_DIR$/activity-fragment" />
+            <option value="$PROJECT_DIR$/activity-fullscreen" />
+            <option value="$PROJECT_DIR$/activity-login" />
+            <option value="$PROJECT_DIR$/activity-navigation-bottom" />
+            <option value="$PROJECT_DIR$/activity-navigation-drawer" />
+            <option value="$PROJECT_DIR$/activity-response" />
+            <option value="$PROJECT_DIR$/activity-scrolling" />
+            <option value="$PROJECT_DIR$/activity-settings" />
+            <option value="$PROJECT_DIR$/activity-tabbed" />
+            <option value="$PROJECT_DIR$/activity-tv" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>

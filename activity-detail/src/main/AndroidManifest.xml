@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application>
+        <activity
+            android:name=".ItemDetailHostActivity"
+            android:exported="false"
+            android:label="@string/title_activity_item_detail_host"
+            android:resizeableActivity="true"
+            tools:targetApi="24" />
+    </application>
+
+</manifest>

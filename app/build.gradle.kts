@@ -32,7 +32,20 @@ android {
         jvmTarget = "11"
     }
 }
-
 dependencies {
-
+    implementation(project(":activity-basic"))
+    implementation(project(":activity-detail"))
+    implementation(project(":activity-empty"))
+    implementation(project(":activity-fragment"))
+    implementation(project(":activity-fullscreen"))
+    implementation(project(":activity-login"))
+    implementation(project(":activity-navigation-bottom"))
+    implementation(project(":activity-navigation-drawer"))
+    implementation(project(":activity-response"))
+    implementation(project(":activity-scrolling"))
+    implementation(project(":activity-settings"))
+    implementation(project(":activity-tabbed"))
+    implementation(project(":activity-tv"))
+    implementation(libs.androidx.appcompat)
 }
+
